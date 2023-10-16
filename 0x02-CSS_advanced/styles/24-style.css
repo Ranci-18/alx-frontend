@@ -479,10 +479,6 @@ a:active {
     margin-right: auto;
 }
 
-.card-category {
-    color: var(--color-primary);
-}
-
 h1,
 h2,
 h3,
@@ -573,8 +569,12 @@ ul .row {
     fill: var(--text-color);
 }
 
+.card-category {
+  color: var(--color-primary);
+}
+
 .card-services .card-title {
-    margin: none;
+    margin: 0;
 }
 
 .card-services a {
